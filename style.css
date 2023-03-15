@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container form {
+    display: flex;
+    gap: 14px;
+}
+
+form input,
+.box {
+    outline: none;
+    border: 1px solid #979797;
+    padding: 12px 16px;
+    height: 48px;
+    width: 113px;
+}
+
+form input::placeholder {
+    font-size: 14px;
+    color: #8F92A1;
+}
+
+.main_inp {
+    width: 441px;
+    position: relative;
+}
+
+.main_inp input,
+div {
+    width: 100%;
+}
+
+.inp_list {
+    position: absolute;
+    border: 1px solid #979797;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 5px;
+    display: none;
+}
+
+.inp_list__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.inp_list__box div {
+    width: fit-content;
+}
+
+.inp_list__box .genre {
+    color: #777777;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.inp_list__box .right{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.inp_list__box .right .rate{
+    font-weight: 700;
+}
+
+.title{ 
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.inp_list_act{
+    display: flex;
+}
